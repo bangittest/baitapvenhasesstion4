@@ -1,0 +1,85 @@
+.box{
+    
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: aliceblue;
+    /* background-color: hsla(359, 100%, 50%, 1); */
+    /* bo doc tuyen tinh */
+    /* background: linear-gradient(45deg,red,puple,yellow); */
+    /* bo doc xuyen tam */
+    background: radial-gradient(cicle at top,red,puple),yellow ;
+    /* opacity: 0,5; */
+    border-radius: 50%;
+    /* background: transparent;mau xuyen thau */
+    /* do bong */
+    box-shadow: 20px 20px 4px 0px black;
+}
+.heading{
+    font-size: 50px;
+    margin-top: 90px;
+    font-weight: 900;
+    text-shadow: 8px -5px 4px blue;
+    text-decoration:overline;
+    
+}
+.img{
+    
+    width:500px;
+    height: 400px;
+    background:url(/image/th1.jpg) no-repeat,top url(/image/th2.jpg) no-repeat,url(/image/th3.jpg) no-repeat;
+}
+.ilement{
+    width: 200px;
+    background-color: blue;
+    margin-top: 100px;
+    text-align: center;
+    /* xoay phan tu */
+    /* transform: rotate(90deg) scale(4); */
+    /* transform: scale(1); */
+    /* transform: skew(45deg,40deg); */
+    font-size: 20px;
+    /* transform: translate(100px 100px); */
+    
+}
+.transition{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    transition: all 30s ease-in-out ;
+    transition-delay:1s;
+
+    background-color: rgb(64, 255, 0);
+    border-radius: 50%;
+    animation: move_infintite 3s ease-in-out 1s infinite;
+}
+.transition:hover{
+    /* width: 400px;
+    height: 400px;
+    line-height: 400px;
+    opacity: 0; */
+    transform: scale(300px);
+    transform: rotate(1800deg);
+}
+@keyframes move_infinite{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: rotate(540deg) translate(-500);
+    
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.rectange{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid;
+
+}

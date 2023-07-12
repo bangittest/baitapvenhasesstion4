@@ -1,0 +1,82 @@
+.header{
+    background-color: rgb(218, 176, 176);
+        width: 650px;
+        padding: 20px;
+        border-radius: 5px;
+}
+h1{
+    text-align: center;
+    width: 600px;
+}
+.text{
+    /* margin: auto; */
+    /* text-align: center;    */
+    margin-bottom: 30px;
+}
+
+.text1{
+    padding: 0px;
+    border: none;  
+    display: flex;
+}
+
+input[type="text"]{
+    border: none;
+    font-size: 20px;
+    padding:0;
+    width: 200px;
+    border-bottom: 1px solid silver;
+    display: block;
+    width: 500px;
+    border-bottom: 1px solid #333;
+    outline: none;
+    padding: 0 10px;
+}
+.them1{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: rgb(207, 140, 54);
+    border: 0;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: burlywood;
+    border: 0;
+    color: white;
+    display: inline-block;
+    
+}
+.xoa{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: rgb(109, 45, 199);
+    border: 0;
+    color: white;
+    display: inline-block;
+}
+.nav{
+    background-color: aquamarine;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    gap: 0 10px
+    
+}
+.nav_2{
+    background-color: aquamarine;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    gap: 0 10px
+}
+
+
