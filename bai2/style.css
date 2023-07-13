@@ -26,13 +26,3 @@
     transform: rotate(60deg);
 }
 
-.second-hand {
-    width: 2px;
-    height: 80px;
-    background-color: #f00;
-    position: absolute;
-    top: 50px;
-    left: 99px;
-    transform-origin: bottom center;
-    transform: rotate(90deg);
-}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="header">
+            <div id="toggle">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+                <!-- <i class="fa-solid fa-x"></i> -->
+            </div>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Info</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Show me more</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#toggle').click(function () {
+                $('nav').slideToggle();
+            });
+        })
+
+    </script>
+</body>
+
+</html>
